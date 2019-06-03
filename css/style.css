@@ -1,0 +1,20 @@
+h1{
+  font-family: verdana,helvetica,arial;
+  font-size:24px;
+  color: white;
+  text-align: center;
+
+
+}
+body {width: 100%;
+      background-image: radial-gradient(circle, #d6a6c5, #a7e2f8);
+
+}
+section{
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
