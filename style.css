@@ -130,12 +130,14 @@ background-color: red;
 
 .text {
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   font-family: Helvetica;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 16px;
+  /* background-color: red; */
 }
 
 .page-main-section{
