@@ -6,8 +6,28 @@ a:link {color:black;text-decoration: none;text-align: center;}
 a:hover {color:dodgerblue;text-align: center;}
 a:visited {color:black;text-align: center;}
 /*???why is uiux design purple?acive link?*/
+.img_hover img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.overlay {
+  position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 
-body{font-family: courier,helvetica,arial; 
+  opacity: 0;
+  transition: .1s ease;
+}
+
+.projectbox:hover .overlay {
+  opacity: 1;
+}
+
+body{font-family:helvetica,arial; 
 	width: 961px;
 	margin:auto;
   display: -webkit-box;
@@ -93,16 +113,19 @@ background-color: red;
  
 .projectbox
 {
-	width:25%;
-	margin:20px;
-  display: -webkit-box;
+  width:25%;
+  height: 25%;
+  margin:20px;
+  display:inline-block;
+  position: relative;
+  /*display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
   -moz-flex-direction: row;
-  -webkit-flex-direction: row;
+  -webkit-flex-direction: row;*/
 justify-content: center;
 	
 }
@@ -296,5 +319,5 @@ img {max-width:100%; height:auto;}
 {
 	font-weight:bolder;
 	font-size: 13pt;
-	font-stye: italic;
+	font-style: italic;
 }
