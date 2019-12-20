@@ -1,12 +1,12 @@
 
 
-.logo{font-style:italic;}
+
 
 a:link {color:black;text-decoration: none;text-align: center;}
 nav a:hover {color:dodgerblue;text-align: center;}
 a:visited {color:black;text-align: center;}
 /*???why is uiux design purple?acive link?*/
-
+/*
 body{font-family:helvetica,arial; 
 	width: 961px;
 	margin:auto;
@@ -18,10 +18,72 @@ body{font-family:helvetica,arial;
   display: flex;
   justify-content:center;
   align-items: center;
-flex-direction: column;}
+flex-direction: column;}*/
+
+body
+{
+  font-family:helvetica,arial; 
+  margin:0;
+}
+.homepage-animation p
+{
+  position: absolute;
+  top: 50%;
+  left: 4em;
+  transform: translate(0,-50%);
+  z-index: 2;
+}
+
+.homepage-animation p .text1
+{ 
+  font-size: 3em;
+  line-height:1.5em;
+  color:rgb(223, 223, 223);
+  background: rgb(20, 20, 20);
+  }
+
+.homepage-animation p .text2
+{ 
+  font-size: 2em;
+  font-style:italic;
+  line-height:1.5em;
+  color:rgb(223, 223, 223);
+  background: rgb(20, 20, 20);
+}
+
+.homepage-animation p .text3
+{ 
+  font-size: 1.2em;
+  line-height:1.5em;
+  font-style:italic;
+  color:rgb(223, 223, 223);
+  background: rgb(20, 20, 20);
+}
+
+.homepage-animation img{
+  width: 100%;
+}
 
 #wrapper{
-/*height: 100vh;*/
+  font-family:helvetica,arial; 
+	width: 961px;
+	margin:auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  }*/
+
+
+/*#wrapper{
+/*height: 100vh;
 margin: 15px 0px;
 	width: 100%;
   display: -webkit-box;
@@ -36,10 +98,22 @@ margin: 15px 0px;
   -webkit-flex-direction: column;
 	align-content: center;
 }
+*/
 
-
+#page-header{
+  top:0;
+  position: absolute;
+  z-index: 3;
+  width: 961px;
+  margin:auto;
+}
 #page-header nav{
   display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
@@ -85,17 +159,19 @@ background-color: red;
   display: flex;
   -moz-flex-direction: row;
   -webkit-flex-direction: row;
-	flex-direction: row;
+	flex-direction:row;
 	flex-grow: 1;
 	flex-wrap:wrap;
-	justify-content: center;
+	justify-content: flex-start;
 }
  
 .projectbox
 {
-  width:25%;
+  width:30%;
   height:auto;
-  margin:20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-right: 30px; 
   display:inline-block;
   position: relative;
   /*display: -webkit-box;
@@ -159,7 +235,7 @@ background-color: red;
 .film-container{
  max-width:1000px;
  width:100%;
-	margin-top: 30px;
+	margin-top: 20px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -248,12 +324,34 @@ justify-content: center;
 	border-radius: 5px;
 	box-shadow: 0px 2px 5px lightgrey;
 	padding: 10px;
-	margin: 10px;
-	
+	margin-bottom: 30px;
 }
 
-
-
+.app-interface-box{
+  width: 240px;
+	Height: auto;
+ overflow: hidden;
+  position: relative;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.post-container{
+  max-width:1000px;
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -moz-flex;
+   display: -webkit-flex;
+   display: flex;
+   -moz-flex-direction: column;
+   -webkit-flex-direction: column;
+   flex-direction:column;
+   flex-grow: 1;
+   flex-wrap:wrap;
+   justify-content: flex-start;
+ }
 footer{
 text-align: right; font-size: 9pt;color:dimgrey}
 
@@ -315,12 +413,51 @@ img {width:100%; height:auto;}
 
 /*Fonts*/
 .font-section{
-	font-size: 15pt;
+	font-size: 1.5em;
 	color:black
 }
 .font-title-1
 {
 	font-weight:bolder;
-	font-size: 13pt;
+	font-size:1.5em;
 	font-style: italic;
+}
+.post-sub-title
+{
+  font-weight:bolder;
+  font-size: 1.25em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.post-paragraph
+{
+  font-size: 1em;
+
+}
+
+.logo{font-style:italic;
+font-weight: bolder}
+
+.logo:hover {
+  animation: 6s multicolor ease;
+}
+@keyframes multicolor {
+  0% {
+      color: #000;
+  }
+  25% {
+      color: coral;
+  }
+
+  50%{
+    color:rgb(17, 190, 104);
+  }
+  75% {
+      color:rgb(45, 134, 236);
+  }
+  100% {
+      color: #000;
+  }
+ 
 }
