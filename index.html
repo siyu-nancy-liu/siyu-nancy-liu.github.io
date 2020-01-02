@@ -2,12 +2,16 @@
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 
 	 <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	
+	<!-- Override CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -49,7 +53,7 @@
 		</header>
 		
 <!--Homepic-->	
-<div class="container-fluid homepage-animation px-0">
+<div class="container-fluid homepage-animation px-0 below-nav">
 	<img class="img-fluid w-100" src="img/homepage_animated.gif">
 	<div class="container header_content">
 		<div class="col-lg-11 mx-auto">
@@ -64,52 +68,54 @@
 				</span>            
 		</div>
 	</div>
-	</div>
-<div id="wrapper">
+</div>
 
-  <!-- Main -->
-<main id="page-main" class="img_hover">
 
-	<h1 class="font-section">DESIGN & RESEARCH</h1>
-	<div class="project-container">		
-		<div class="projectbox">
-			<a href="newbalance.html">
-				<img src="works/newbalance/overview-pic.jpg">
-			</a>
-		</div>
-		<div class="project_description">
-			<h3>	New Balance Gives Back</h3>
-		</div>
-	</div>
-	<div class="project-container">		
-		<div class="projectbox">
-			<a href="urban_design_works.html">
-				<img src="works/urban-design/portfolio_cover.jpg">
-			</a>
-		</div>
-		<div class="project_description">
-			<h3>	Urban Design Portfolio</h3>
-		</div>
-	</div>
-	<div class="project-container">		
-		<div class="projectbox">
-			<a href="park_edge_research.html">
-				<img src="works/urban-design/park-overview-pic.jpg">
-			</a>
-		</div>
-		<div class="project_description">
-			<h3>	Park Edge Research</h3>
-		</div>
-	</div>
 
-</main>
+
+  <!-- Project Cards -->
+<section class="container">
+		<h1 class="font-section">DESIGN & RESEARCH</h1>
+	<div class="card-deck">
+		<div class="card col-sm-4">		
+				<a href="newbalance.html">
+					<img src="works/newbalance/overview-pic.jpg">
+				</a>
+				<div class="card-body">
+						<h5>	New Balance Gives Back</h5>
+						<h7>UIUX</h7>
+				</div>
+		</div>
+
+		<div class="card col-sm-4" style="border-width:0">		
+				<a href="urban_design_works.html">
+						<img src="works/urban-design/portfolio_cover.jpg">
+					</a>
+				<div class="card-body">
+						<h5>Urban Design Portfolio</h5>
+						<h7>Environmental Design</h7>
+				</div>
+		</div>
+
+		<div class="card col-sm-4">		
+				<a href="park_edge_research.html">
+						<img src="works/urban-design/park-overview-pic.jpg">
+					</a>
+				<div class="card-body">
+						<h5>Park Edge Research</h5>
+						<h7>Urban Design Research</h7>
+				</div>
+		</div>
+ 	</div>
+</section>
+
+
 
 
   <!-- Footer -->
-<footer class="page-footer">
+<footer class="container">
 © Siyu Liu. All rights reserved.
 	</footer>
 	
-</div>
 </body> 
 </html>
