@@ -549,7 +549,6 @@ img {width:100%; height:auto;}
 
 /* Multi-column text */
 .text-column {
-  text-align: justify;
   /* Old Chrome, Safari and Opera */
   -webkit-column-count: 2;
   -webkit-column-gap: 40px;
@@ -593,6 +592,8 @@ img {width:100%; height:auto;}
 .post-paragraph
 {
   font-size: 1em;
+  line-height: 1.2em;
+  
 
 }
 
