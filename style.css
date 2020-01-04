@@ -548,6 +548,7 @@ img {width:100%; height:auto;}
 } */
 
 /* Multi-column text */
+
 .text-column {
   /* Old Chrome, Safari and Opera */
   -webkit-column-count: 2;
@@ -571,15 +572,16 @@ img {width:100%; height:auto;}
 /*Fonts*/
 .font-section{
 	font-size: 1.5em;
-  color:black;
   padding-top:3em; 
   padding-bottom:1.5em;
+  color: 3f3f3f;
 }
 .font-title-1
 {
 	font-weight:bolder;
 	font-size:1.5em;
-	font-style: italic;
+  font-style: italic;
+  color: 3f3f3f;
 }
 .post-sub-title
 {
@@ -587,14 +589,31 @@ img {width:100%; height:auto;}
   font-size: 1.25em;
   margin-top: 2em;
   margin-bottom: 1em;
+  color: 3f3f3f;
 }
 
+.post-bullet-point
+{
+  font-weight:bolder;
+  font-size: 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: 3f3f3f;
+}
 .post-paragraph
 {
   font-size: 1em;
   line-height: 1.2em;
+  color: 3f3f3f;
   
 
+}
+
+.persona-description
+{
+  font-size: 0.8em;
+  line-height:1em;
+  color: 3f3f3f;
 }
 
 .logo{font-style:italic;
