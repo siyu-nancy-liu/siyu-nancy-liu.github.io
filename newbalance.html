@@ -88,22 +88,22 @@
 	<img src="works/newbalance/interface-color-concept.jpg">
 
 	<div class="post-sub-title">Final Product</div>
-	<div class="row">    
+		<div class="row">    
 			<div class="col-md-6 ">
-				<div class="card">
-					<div class="card-image">
-						<div class="embed-responsive embed-responsive-16by9">
-	<iframe width="1726" height="862" src="works/newbalance/prototype-start-with-a-challenge.mp4" frameborder="0" allowfullscreen></iframe>
-	</div>
-						
-					</div><!-- card image -->
-					
-					<div class="card-content">
-						<span class="card-title">How can I pay for college?</span>                    
-					</div><!-- card content -->
-					
-				</div>
+					<video webkit-playsinline playsinline loop muted controls width="220" height="500" preload="none"
+					>
+						<source type="video/mp4" src="works/newbalance/prototype-start-with-a-challenge.mp4" />
+					</video>
 			</div>
+		</div>
+		<div class="row">    
+			<div class="col-md-6 ">
+					<video webkit-playsinline playsinline loop muted controls width="220" height="500" preload="none"
+					>
+						<source type="video/mp4" src="works/newbalance/prototype-start-with-a-challenge.mp4" />
+					</video>
+			</div>
+		</div>
 	</div>
 	<div class="app-interface-box"><img src="works/newbalance/Sign-in-start-a-challenge.gif"></div>
 	<div class="post-paragraph">Start with a challenge when you log in for the first time </div>
@@ -131,5 +131,25 @@
 	</footer>
 	
 <!-- </div> -->
+<script>
+let videos = document.querySelectorAll('video');
+let isPaused = false; /* Flag for auto-paused video */
+let observer = new IntersectionObserver((entries, observer) => { 
+  entries.forEach(entry => {
+	let video = entry.target;
+    if(entry.intersectionRatio!=1  && !video.paused){
+      video.pause();
+    }
+    else {
+		video.currentTime = 0
+		video.play();
+	}
+  });
+}, {threshold: 1});
+videos.forEach(function(video) {
+	observer.observe(video);
+    })
+;
+</script>
 </body> 
 </html>

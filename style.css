@@ -603,6 +603,11 @@ font-weight: bolder}
 .logo:hover {
   animation: 6s multicolor ease;
 }
+
+video {
+  background-color: white;
+}
+
 @keyframes multicolor {
   0% {
       color: #000;
