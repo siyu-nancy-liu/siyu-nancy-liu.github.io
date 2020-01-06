@@ -595,14 +595,14 @@ img {width:100%; height:auto;}
 	font-size: 1.5em;
   padding-top:1.5em; 
   padding-bottom:1.5em;
-  color: 3f3f3f;
+  color: #3f3f3f;
   text-transform: uppercase;
 }
 
 .font-article-title{
 	font-size: 1.5em;
   padding-top:1.5em; 
-  color: 3f3f3f;
+  color: #3f3f3f;
   text-transform: uppercase;
 }
 .font-title-1
@@ -610,22 +610,31 @@ img {width:100%; height:auto;}
 	font-weight:bolder;
 	font-size:1.5em;
   font-style: italic;
-  color: 3f3f3f;
+  color: #3f3f3f;
 }
 
 .font-slogan{
   font-size: 1.5em;
   line-height: 1.8em;
-  color: 3f3f3f;
+  color: #3f3f3f;
   font-style: italic;
 }
+
+.font-concept{
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  color:#d93529;
+  font-style: italic;
+}
+
 .post-sub-title
 {
   font-weight:bolder;
   font-size: 1.25em;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: 3f3f3f;
+  color: #3f3f3f;
 }
 
 .post-bullet-point
@@ -635,13 +644,13 @@ img {width:100%; height:auto;}
   line-height: 1.2em;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: 3f3f3f;
+  color: #3f3f3f;
 }
 .post-paragraph
 {
   font-size: 1em;
   line-height: 1.2em;
-  color: 3f3f3f;
+  color: #3f3f3f;
   
 
 }
@@ -650,7 +659,7 @@ img {width:100%; height:auto;}
 {
   font-size: 0.8em;
   line-height:0.4em;
-  color: 3f3f3f;
+  color: #3f3f3f;
 }
 
 .logo{font-style:italic;
