@@ -710,6 +710,17 @@ video {
   { 
     font-size: 2.4vw;
     line-height: 4.8vw;
-
   }
+}
+
+@media all and (max-width: 480px) {
+.film-box {
+  width:100%;
+}
+.film-box .font-title-1{
+  font-size: 4.5vw;
+}
+.film-box p{
+  font-size: 4vw;
+}
 }
