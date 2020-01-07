@@ -22,7 +22,7 @@ flex-direction: column;}*/
 
 body
 {
-  font-family: Avenir,Tahoma, helvetica Neue,helvetica,sans-serif,arial !important; 
+  font-family: Avenir,helvetica Neue,helvetica,sans-serif,arial !important; 
   margin:0;
 }
 .homepage-animation {
@@ -150,6 +150,25 @@ background-color: red;
 	flex-grow: 1;
 	align-items:flex-start;
 }
+
+/* .col-md-4 {
+  padding-left: 0 !important;
+}
+
+.col-md-8{
+  padding-left: 0 !important;
+} */
+
+.color-box
+{
+  background-color: #f0f0f0;
+  padding: 1em 0;
+}
+.section-style{
+  margin-bottom: 6em;
+ }
+
+ 
 /* Navigation Bar */
 /* #page-header .navbar{
   padding-left: 3em;
@@ -321,6 +340,7 @@ background-color: red;
 	flex-wrap:wrap;
 	justify-content: space-between;
 }
+
 .film-box{
 	width:520px;
 	Height: 430px;
@@ -572,6 +592,8 @@ img {width:100%; height:auto;}
   column-width: 400px;
   /* column-rule-style: solid;
   column-rule-width: 1px; */
+
+  margin: 2em 0;
 }
 
 /* Prototype */
@@ -587,7 +609,7 @@ img {width:100%; height:auto;}
 
 /* design iteration container */
 .margin-bottom{
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 /*Fonts*/
@@ -614,19 +636,20 @@ img {width:100%; height:auto;}
 }
 
 .font-slogan{
-  font-size: 1.5em;
-  line-height: 1.8em;
+  font-size: 2em;
+  font-weight:bold;
   color: #3f3f3f;
   font-style: italic;
 }
 
 .font-concept{
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.5em;
   line-height: 1.8em;
-  color:#d93529;
+  color:#3f3f3f;
   font-style: italic;
 }
+
 
 .post-sub-title
 {
@@ -641,18 +664,25 @@ img {width:100%; height:auto;}
 {
   font-weight:bolder;
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: 3em;
   margin-top: 2em;
   margin-bottom: 1em;
   color: #3f3f3f;
 }
+
 .post-paragraph
 {
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: 1.5em;
   color: #3f3f3f;
-  
+}
 
+.font-user-test
+{
+  font-size: 1.2em;
+  line-height: 1.5em !important;
+  font-style: italic;
+  color: #3f3f3f;
 }
 
 .persona-description
