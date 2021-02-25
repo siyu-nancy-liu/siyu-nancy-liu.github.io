@@ -22,17 +22,19 @@ flex-direction: column;}*/
 
 body
 {
-  font-family:helvetica Neue,helvetica,arial !important; 
+  font-family: Avenir,helvetica Neue,helvetica,sans-serif,arial !important; 
   margin:0;
 }
 .homepage-animation {
   position:relative;
 }
+
 .header_content{
   position: absolute;
-  top:50%;;
+  top:50%;
   left:3em;
   transform: translate(0,-50%);
+  line-height: 0;
 }
 /* .homepage-animation p
 {
@@ -42,27 +44,27 @@ body
   z-index: 2;
 } */
 
-.homepage-animation .text1
+.text1
 { 
-  font-size: 4vw;
-  line-height:5vw;
+  font-size: 5vw;
+  line-height: 9vw;
   color:rgb(223, 223, 223);
   background: rgb(20, 20, 20);
   }
 
-.homepage-animation .text2
+.text2
 { 
-  font-size: 2vw;
+  font-size: 2.5vw;
+  line-height: 4.5vw;
   font-style:italic;
-  line-height:2.5vw;
   color:rgb(223, 223, 223);
   background: rgb(20, 20, 20);
 }
 
-.homepage-animation .text3
+.text3
 { 
-  font-size: 1.2vw;
-  line-height:1.5vw;
+  font-size: 1.5vw;
+  line-height: 2.7vw;
   font-style:italic;
   color:rgb(223, 223, 223);
   background: rgb(20, 20, 20);
@@ -72,7 +74,7 @@ body
   width: 100%;
 }
 
-#wrapper{
+/* #wrapper{
   font-family:helvetica,arial; 
 	width: 960px;
 	margin:auto;
@@ -87,7 +89,7 @@ body
   -webkit-flex: 1;
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
-  }*/
+  }*/ */
 
 
 /*#wrapper{
@@ -148,11 +150,30 @@ background-color: red;
 	flex-grow: 1;
 	align-items:flex-start;
 }
+
+/* .col-md-4 {
+  padding-left: 0 !important;
+}
+
+.col-md-8{
+  padding-left: 0 !important;
+} */
+
+.color-box
+{
+  background-color: #f0f0f0;
+  padding: 1em 0;
+}
+.section-style{
+  margin-bottom: 6em;
+ }
+
+ 
 /* Navigation Bar */
-#page-header .navbar{
+/* #page-header .navbar{
   padding-left: 3em;
   padding-right: 3em;
-}
+} */
 
 /* Card */
   /*remove border*/
@@ -189,7 +210,7 @@ background-color: red;
 }
 /* padding below navbar */
   .below-nav{
-    padding-top: 55px;
+    margin-top: 55px;
   }
 
 .project-container{
@@ -319,6 +340,7 @@ background-color: red;
 	flex-wrap:wrap;
 	justify-content: space-between;
 }
+
 .film-box{
 	width:520px;
 	Height: 430px;
@@ -570,8 +592,15 @@ img {width:100%; height:auto;}
   column-width: 400px;
   /* column-rule-style: solid;
   column-rule-width: 1px; */
+
+  margin: 2em 0;
 }
 
+/* Prototype */
+.prototype-box
+{
+  margin-bottom: 3em;
+}
 
 /* Design Iteration image shadow */
 .di-img img{
@@ -580,55 +609,87 @@ img {width:100%; height:auto;}
 
 /* design iteration container */
 .margin-bottom{
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 /*Fonts*/
 .font-section{
 	font-size: 1.5em;
-  padding-top:3em; 
+  padding-top:1.5em; 
   padding-bottom:1.5em;
-  color: 3f3f3f;
+  color: #3f3f3f;
+  text-transform: uppercase;
+}
+
+.font-article-title{
+	font-size: 1.5em;
+  padding-top:1.5em; 
+  color: #3f3f3f;
+  text-transform: uppercase;
 }
 .font-title-1
 {
 	font-weight:bolder;
 	font-size:1.5em;
   font-style: italic;
-  color: 3f3f3f;
+  color: #3f3f3f;
 }
+
+.font-slogan{
+  font-size: 2em;
+  font-weight:bold;
+  color: #3f3f3f;
+  font-style: italic;
+}
+
+.font-concept{
+  /* text-align: center; */
+  font-size: 1.5em;
+  line-height: 1.8em;
+  color:#3f3f3f;
+  font-style: italic;
+}
+
+
 .post-sub-title
 {
   font-weight:bolder;
   font-size: 1.25em;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: 3f3f3f;
+  color: #3f3f3f;
 }
 
 .post-bullet-point
 {
   font-weight:bolder;
   font-size: 1em;
-  line-height: 0.5em;
+  line-height: 3em;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: 3f3f3f;
+  color: #3f3f3f;
 }
+
 .post-paragraph
 {
   font-size: 1em;
-  line-height: 1.2em;
-  color: 3f3f3f;
-  
+  line-height: 1.5em;
+  color: #3f3f3f;
+}
 
+.font-user-test
+{
+  font-size: 1.2em;
+  line-height: 1.5em !important;
+  font-style: italic;
+  color: #3f3f3f;
 }
 
 .persona-description
 {
   font-size: 0.8em;
   line-height:0.4em;
-  color: 3f3f3f;
+  color: #3f3f3f;
 }
 
 .logo{font-style:italic;
@@ -659,5 +720,37 @@ video {
   100% {
       color: #000;
   }
- 
+}
+@media all and (max-width: 575px) {
+  .text1
+  { 
+    font-size: 8vw;
+    line-height: 14.4vw;
+
+    }
+  
+  .text2
+  { 
+    font-size: 4vw;
+    line-height: 7.2vw;
+
+  }
+  
+  .text3
+  { 
+    font-size: 2.4vw;
+    line-height: 4.8vw;
+  }
+}
+
+@media all and (max-width: 480px) {
+.film-box {
+  width:100%;
+}
+.film-box .font-title-1{
+  font-size: 4.5vw;
+}
+.film-box p{
+  font-size: 4vw;
+}
 }
