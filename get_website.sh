@@ -6,7 +6,7 @@ wget \
      --compression=auto \
      -e robots=off \
      --convert-links -Duploads-ssl.webflow.com,webflow.io \
-     --directory-prefix=download_from_webflow/ https://siyu-portfolio.webflow.io/
+     --directory-prefix=download_from_webflow/ https://siyu-portfolio.webflow.io/404
 
 mv download_from_webflow/siyu-portfolio.webflow.io/*  download_from_webflow/
 rm -r download_from_webflow/siyu-portfolio.webflow.io
