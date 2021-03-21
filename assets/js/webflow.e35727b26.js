@@ -8803,11 +8803,15 @@ Webflow.require('ix2').init({
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "6045273552a35a6c7ee21840",
                 "appliesTo": "PAGE",
-                "styleBlockIds": [],
-                "id": "6045273552a35a6c7ee21840"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "6045273552a35a6c7ee21840",
+                "appliesTo": "PAGE",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -8839,11 +8843,15 @@ Webflow.require('ix2').init({
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "603c5b4ce815e8f7927fc6e6",
                 "appliesTo": "PAGE",
-                "styleBlockIds": [],
-                "id": "603c5b4ce815e8f7927fc6e6"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "603c5b4ce815e8f7927fc6e6",
+                "appliesTo": "PAGE",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -8875,11 +8883,15 @@ Webflow.require('ix2').init({
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "603d9b2ef099869767fe9013",
                 "appliesTo": "PAGE",
-                "styleBlockIds": [],
-                "id": "603d9b2ef099869767fe9013"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "603d9b2ef099869767fe9013",
+                "appliesTo": "PAGE",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -8911,11 +8923,15 @@ Webflow.require('ix2').init({
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "603dc8c1597ccb1a4f73d913",
                 "appliesTo": "PAGE",
-                "styleBlockIds": [],
-                "id": "603dc8c1597ccb1a4f73d913"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "603dc8c1597ccb1a4f73d913",
+                "appliesTo": "PAGE",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -8947,11 +8963,15 @@ Webflow.require('ix2').init({
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "603d97f050efa376eea47042",
                 "appliesTo": "PAGE",
-                "styleBlockIds": [],
-                "id": "603d97f050efa376eea47042"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "603d97f050efa376eea47042",
+                "appliesTo": "PAGE",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": false,
                 "playInReverse": false,
@@ -8983,11 +9003,15 @@ Webflow.require('ix2').init({
             },
             "mediaQueries": ["main", "medium", "small", "tiny"],
             "target": {
+                "id": "248c7042-1f4d-eea3-cd14-ff46ed8f1c05",
                 "appliesTo": "ELEMENT",
-                "styleBlockIds": [],
-                "id": "248c7042-1f4d-eea3-cd14-ff46ed8f1c05"
+                "styleBlockIds": []
             },
-            "targets": [],
+            "targets": [{
+                "id": "248c7042-1f4d-eea3-cd14-ff46ed8f1c05",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
             "config": {
                 "loop": true,
                 "playInReverse": false,
