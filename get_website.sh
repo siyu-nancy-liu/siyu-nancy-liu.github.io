@@ -26,3 +26,15 @@ new_weflow_badge_css='.w-webflow-badge,.w-webflow-badge *{display:none;}.w-webfl
 grep -rli $weflow_badge_css download_from_webflow/assets/css| xargs -I@ sed -i '' "s%$weflow_badge_css%$new_weflow_badge_css%g"  @
 
 find download_from_webflow/ -type f \( -iname \*.html -o -iname \*.js -o -iname \*.css \) | xargs -I@ js-beautify @ -o @
+
+wget \
+     --adjust-extension \
+     --compression=auto \
+     -e robots=off \
+     --directory-prefix=download_from_webflow/ http://siyu-portfolio.webflow.io/sitemap.xml
+
+
+webflow_address='https://siyu-portfolio.webflow.io'
+my_address='https://www.siyu-liu.com'
+sed -i '' "s%$webflow_address%$my_address%g"  download_from_webflow/sitemap.xml
+
