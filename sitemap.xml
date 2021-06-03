@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://www.siyu-liu.com/</loc>
+      <loc>https://siyu-liu.com/</loc>
    </url>
    <url>
-      <loc>https://www.siyu-liu.com/work/sitenote</loc>
+      <loc>https://siyu-liu.com/about</loc>
    </url>
    <url>
-      <loc>https://www.siyu-liu.com/work/didi-bike</loc>
+      <loc>https://siyu-liu.com/videography</loc>
    </url>
    <url>
-      <loc>https://www.siyu-liu.com/work/new-balance</loc>
+      <loc>https://siyu-liu.com/work/didi-bike</loc>
    </url>
    <url>
-      <loc>https://www.siyu-liu.com/videography</loc>
+      <loc>https://siyu-liu.com/work/new-balance</loc>
    </url>
    <url>
-      <loc>https://www.siyu-liu.com/about</loc>
+      <loc>https://siyu-liu.com/work/sitenote</loc>
    </url>
 
 </urlset>
